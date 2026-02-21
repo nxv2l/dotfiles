@@ -1,0 +1,24 @@
+alias c='clear'
+alias src='source ~/.bashrc'
+alias srcc='code ~/.bashrc'
+
+alias b='export DISPLAY=:1 && python3 buttons.py'
+alias die="gh codespace stop -c $CODESPACE_NAME"
+
+# pygame/ankiclone
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[0;33m'
+BLUE='\033[0;34m'
+CYAN='\033[0;36m'
+RESET='\033[0m'
+
+BRIGHT_GREEN='\033[0;92m'
+LT_GREEN='\033[38;5;22m'
+MINT_GREEN='\033[38;5;121m'
+SOFT_LIME_GREEN='\033[38;5;156m'
+MEDIUM_GREEN='\033[38;5;34m'
+BRIGHT_GRASS='\033[38;5;40m' 
+NEON_GREEN='\033[38;5;46m'
+
+export PS1="${GREEN}nxv2 ${BRIGHT_GREEN}\A ${RED}\W${MINT_GREEN} >> ${LT_GREEN}"
